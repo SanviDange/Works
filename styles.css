@@ -105,10 +105,7 @@ body {
 }
 
 .image img {
-  height: 500px; /* Adjust size as needed */
-  width: auto; /* Maintains aspect ratio */
   transition: transform 0.3s ease; /* Smooth hover effect */
-  gap: 2px;
 }
 
 .image img:hover {
@@ -130,4 +127,10 @@ body {
 .dslr img {
   width: 200px; /* Adjust this number to make smaller/bigger */
   height: auto; /* Keeps the aspect ratio */
+}
+
+.clickable-img {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  filter: drop-shadow(0 0 8px rgba(65, 5, 217, 0.8)); /* Glow around image shape */
 }
