@@ -95,3 +95,39 @@ body {
   background-repeat: no-repeat;
   border-radius: 10px; /* Optional: adds rounded corners */
 }
+
+.image {
+  display: flex; /* Makes images line up horizontally */
+  gap: 20px; /* Space between flowers */
+  align-items: flex-end; /* Aligns flowers at the bottom like they're in soil */
+  justify-content: center; /* Centers the garden */
+  margin-top: 30px;
+}
+
+.image img {
+  height: 500px; /* Adjust size as needed */
+  width: auto; /* Maintains aspect ratio */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+  gap: 2px;
+}
+
+.image img:hover {
+  transform: scale(1.5); /* Flowers grow slightly on hover */
+}
+
+        .black-rectangle {
+            width: 200px;
+            height: 100px;
+            background-color: black;
+        }
+
+.image2 img {
+  height: 500px; /* Adjust size as needed */
+  width: auto; /* Maintains aspect ratio */
+  gap: 2px;
+}
+
+.dslr img {
+  width: 200px; /* Adjust this number to make smaller/bigger */
+  height: auto; /* Keeps the aspect ratio */
+}
